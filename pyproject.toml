@@ -1,0 +1,25 @@
+[tool.bandit]
+# Bandit security linter configuration for Python
+exclude_dirs = ["tests", "test", ".venv", "venv", "env"]
+skips = ["B101"]  # Skip assert_used check (common in tests)
+
+[tool.bandit.assert_used]
+skips = ["*test*.py", "*_test.py"]
+
+[tool.black]
+line-length = 88
+target-version = ['py39']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''

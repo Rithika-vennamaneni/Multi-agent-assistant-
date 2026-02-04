@@ -1,0 +1,17 @@
+# GitLeaks ignore patterns
+# Add paths or patterns that should be ignored by gitleaks
+
+# Example files and documentation
+*.example
+.env.example
+README.md
+ASSIGNMENT_INSTRUCTIONS.md
+
+# Test files with dummy credentials
+**/tests/**/*mock*.py
+**/tests/**/*fake*.py
+
+# Generated lock files
+package-lock.json
+poetry.lock
+uv.lock

@@ -1,0 +1,65 @@
+[
+  {
+    "query": "How can AI assistants explain medical recommendations to older adults with limited technical literacy?",
+    "ground_truth": "Responses should emphasize plain language, analogies tied to daily routines, and opportunities for caregivers to confirm understanding.",
+    "expected_sources": [
+      "Accessible health communication guidelines",
+      "Studies on explainable clinical decision support"
+    ]
+  },
+  {
+    "query": "What are effective multimodal explanation techniques for older adults using smart home systems?",
+    "ground_truth": "Look for research combining voice, large-print visuals, and haptic cues that respect sensory changes in aging.",
+    "expected_sources": [
+      "Smart home HCI research",
+      "Assistive technology case studies"
+    ]
+  },
+  {
+    "query": "Summarize evaluation frameworks for measuring AI explainability with senior participants.",
+    "ground_truth": "Mention think-alouds, teach-back protocols, and trust/comfort metrics tailored to older populations.",
+    "expected_sources": [
+      "Explainable AI evaluation literature",
+      "Gerontology-informed UX methods"
+    ]
+  },
+  {
+    "query": "How do cultural backgrounds influence the preferred explanation style among older adults interacting with AI tutors?",
+    "ground_truth": "Expect discussion of collectivist vs. individualist preferences, narrative storytelling, and localization of metaphors.",
+    "expected_sources": [
+      "Cross-cultural HCI studies",
+      "AI tutoring systems research"
+    ]
+  },
+  {
+    "query": "What safeguards help older adults detect hallucinated or biased AI explanations?",
+    "ground_truth": "Highlight provenance indicators, confidence labels, and caregiver co-review workflows.",
+    "expected_sources": [
+      "AI transparency guidelines",
+      "Safety/guardrail research"
+    ]
+  },
+  {
+    "query": "Compare personalization strategies for tailoring AI explanations to older adults with hearing vs. vision impairments.",
+    "ground_truth": "Expect contrast between captioning + vibration cues versus high-contrast visuals + simplified audio.",
+    "expected_sources": [
+      "Accessibility personalization research"
+    ]
+  },
+  {
+    "query": "What training datasets or user studies exist that focus on explainable AI for people over 65?",
+    "ground_truth": "Include notable datasets, labs, or longitudinal studies capturing older adult feedback on XAI.",
+    "expected_sources": [
+      "Dataset documentation",
+      "Longitudinal HCI evaluations"
+    ]
+  },
+  {
+    "query": "List design heuristics for chatbots that must justify financial recommendations to retirees.",
+    "ground_truth": "Expect references to risk transparency, uncertainty language, and analogies to traditional financial advice.",
+    "expected_sources": [
+      "Fintech UX research",
+      "Explainable recommender systems"
+    ]
+  }
+]
