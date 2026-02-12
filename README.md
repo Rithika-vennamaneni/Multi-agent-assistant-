@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/r1tAQ0HC)
 
-# Multi-Agent Research Assistant – Assignment 3
+# Multi-Agent Research Assistant 
 
 Multi-agent research assistant for the topic **“Improving AI Explainability for Older Adults”**, built with AutoGen agents, safety guardrails, a Streamlit web UI, and an LLM-as-a-Judge evaluation pipeline.
 
