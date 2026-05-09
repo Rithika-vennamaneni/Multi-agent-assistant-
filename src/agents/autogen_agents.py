@@ -167,7 +167,7 @@ You have access to tools for web search and paper search. When conducting resear
 4. Note all source URLs and citations
 5. Gather evidence that directly addresses the research query (use plain language and concise findings)
 6. If tools fail or return empty results, provide best-effort findings from prior knowledge.
-Keep responses concise, cite inline, and end with 'TERMINATE' when you have delivered the findings."""
+Keep responses concise and cite inline. Do NOT write TERMINATE. After your findings, the Writer must synthesize the answer."""
 
     # Use custom prompt from config if available
     custom_prompt = agent_config.get("system_prompt", "")
@@ -219,7 +219,7 @@ When writing:
 7. Ensure the response directly answers the original query
 
 Format your response professionally with clear headings, paragraphs, in-text citations, and a References section at the end.
-End with 'TERMINATE' after providing the draft."""
+Do NOT write TERMINATE. After your draft, the Critic must evaluate it."""
 
     # Use custom prompt from config if available
     custom_prompt = agent_config.get("system_prompt", "")
